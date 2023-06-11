@@ -1,0 +1,39 @@
+.app--section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.app--section2 div {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #091133;
+}
+
+.app--section2 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #6f7cb2;
+  width: 450px;
+}
+
+@media (max-width: 420px) {
+  .app--section2 {
+    width: 95%;
+  }
+  .app--section2 p {
+    width: 100%;
+  }
+}

@@ -1,0 +1,51 @@
+.app--nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1px;
+}
+
+.app--nav--links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin-left: 50px;
+}
+
+.app--nav--links li {
+  width: 50px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.app--nav h4 {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 26px;
+  padding: 0;
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+
+.app--nav button {
+  margin-right: 50px;
+  width: 160px;
+  height: 26px;
+  background: #111b47;
+  border-radius: 2px;
+  color: white;
+}
+
+@media (max-width: 420px) {
+  .app--nav--links {
+    display: none;
+  }
+
+  .app--nav button {
+    margin-right: 0px;
+  }
+}

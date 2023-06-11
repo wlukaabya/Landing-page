@@ -1,0 +1,83 @@
+.app--header {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+}
+
+.app--header--intro {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 40%;
+}
+
+.app--header--intro span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  letter-spacing: 1px;
+  color: #091133;
+}
+
+.app--header--intro p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #505f98;
+}
+
+.app--header--intro--btns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 0px 3px;
+}
+
+.app--header--intro--btns button {
+  width: 160px;
+  margin-right: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.app--header--image img {
+  width: 400px;
+  height: 350px;
+  margin-top: 40px;
+}
+
+@media (max-width: 720px) {
+  .app--header {
+    display: flex;
+    flex-direction: column;
+  }
+  .app--header--intro {
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .app--header {
+    width: 95%;
+  }
+  .app--header--image img {
+    width: 350px;
+  }
+  .app--header--intro span {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
